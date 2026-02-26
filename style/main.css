@@ -1,6 +1,6 @@
 :root {
-    --primary: #5d2a1a; /* Earthy Terracotta */
-    --accent: #d4a373;
+    --primary: #0d2954;
+    --accent: #737bd4;
     --dark: #1a1a1a;
     --light: #fdfaf5;
     --glass: rgba(255, 255, 255, 0.85);
@@ -55,7 +55,7 @@ header {
     align-items: center;
     text-align: center;
     padding: 2rem;
-    background: linear-gradient(rgba(253, 250, 245, 0.7), rgba(253, 250, 245, 0.7)), url('../imgs/bg.png') center/cover no-repeat;
+    background: linear-gradient(rgb(253 250 245 / 56%), rgb(220 245 255 / 78%)), url(../imgs/bg.png) center/cover no-repeat;
 }
 
 menu {
@@ -81,21 +81,24 @@ menu ul li{
 }
 .festname{
     margin-bottom: 2rem;
+    color: var(--primary);
 }
 .gateway_festname{
     font-size: clamp(2.5rem, 8vw, 5rem);
     font-style: italic;
+    color: var(--primary);
 }
 .gateway_nav{
     margin-top: 1em;
     margin-bottom: 3em;
 }
 .gateway_nav a{
+    display: inline-block;
+    margin: 10px;
     font-size: 1.4em;
     font-weight: bold;
-    padding: 12px 30px;
+    padding: 10px 70px;
     background: var(--glass);
-    margin: 0 6px;
     border-radius: 6px;
     text-transform: lowercase;
     font-variant: small-caps;
@@ -103,6 +106,13 @@ menu ul li{
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255,255,255,0.3);
     transition: all .3s ease-in-out;
+}
+
+.gateway_nav a:first-of-type{
+    margin-top: 0;
+}
+.gateway_nav a:last-of-type{
+    margin-bottom: 0;
 }
 .gateway_nav a:hover{
     background: var(--primary);
@@ -112,7 +122,6 @@ menu ul li{
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 600;
-    color: var(--primary);
     margin-bottom: 1rem;
 }
 .hero-tag.ar{
@@ -123,6 +132,7 @@ menu ul li{
 .hero-title {
     font-size: clamp(2.5rem, 8vw, 5rem);
     line-height: 1.1;
+    color: var(--primary);
     margin-bottom: 2rem;
 }
 .festname.ar{
@@ -519,7 +529,7 @@ footer ul li{
 }
 .active{
     font-weight: bold;
-    color: #a76422;
+    color: var(--accent);
 }
 
 
