@@ -3,12 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الجسد في حركة | الدورة الثالثة</title>
+    <title>الرئيسية | الجسد في حركة</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="../style/main.css">
 </head>
 <body>
+
+    <menu>
+        <ul>
+            <li>
+          <form>
+              <select id="lang-select" onchange="navigateLanguage(this)">
+              <option value="ar">AR</option>
+              <option value="en">EN</option>
+              <option value="fr">FR</option>
+              </select>
+          </form>
+      </li>
+            <li><a href="index.html" class="active">الرئيسية</a></li>
+            <li><a href="founder.html">المؤسس</a></li>
+            <li><a href="about.html">حول المهرجان</a></li>
+            <li><a href="editions.html">الدورات</a></li>
+            <li><a href="gallery.html">معرض</a></li>
+        </ul>
+    </menu>
 
     <div class="bg-blob" id="blob"></div>
 
@@ -23,15 +42,6 @@
         </p>
         <a href="#cfp" class="btn btn-primary">دعوة للمشاركة والمداخلات</a>
     </header>
-
-    <menu>
-        <ul>
-            <li><a href="index.html" class="active">الرئيسية</a></li>
-            <li><a href="founder.html">المؤسس</a></li>
-            <li><a href="about.html">حول المهرجان</a></li>
-            <li><a href="editions.html">الدورات</a></li>
-        </ul>
-    </menu>
 
     <section id="aboutEdition">
         <div>
@@ -80,6 +90,24 @@
 </div>
     </section>
 
+<section id="media">
+    <h2 class="section-title">كما ورد في</h2>
+    <ul class="content-grid partners">
+        <li class="card">
+            <img src="../imgs/m1.jpg" alt="" />
+            <h3><a href="https://le61.ma/%D8%A7%D9%84%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-%D8%A7%D9%84%D8%AC%D8%B3%D8%AF-%D9%88%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D9%81%D9%8A-%D8%AD%D8%B1/">Le61.ma <span class="fas fa-external-link-alt"> </span></a></h3>
+        </li>
+        <li class="card">
+            <img src="../imgs/m2.jpg" alt="" />
+            <h3><a href="https://2m.ma/ar/news/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D8%AC%D8%B3%D8%AF-%D9%88%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D9%81%D9%8A-%D8%AD%D8%B1%D9%83%D8%A9-%D8%A8%D8%A8%D9%86%D9%8A-%D9%85%D9%84%D8%A7%D9%84-%D8%AF%D9%88%D8%B1%D8%A9-%D8%AB%D8%A7%D9%86%D9%8A%D8%A9-20250302/">2M.ma <span class="fas fa-external-link-alt"></span></a></h3>
+        </li>
+        <li class="card">
+            <img src="../imgs/m3.jpg" alt="" />
+            <h3><a href="https://aujourdhui.ma/culture/entretien-avec-pr-cherki-karkaba-fondateur-et-directeur-du-festival-international-corps-et-culture-en-mouvement-la-culture-simpose-comme-un-element-incontournable-dans-la-com">Aujourdhui.ma <span class="fas fa-external-link-alt"></span></a></h3>
+        </li>
+    </ul>
+</section>
+
     <section id="cfp">
         <h2 class="section-title">دعوة للمشاركة والمداخلات</h2>
 <div class="cfp-box">
@@ -117,6 +145,27 @@
     </div>
     <p>ندعو الباحثين والفنانين لإرسال مقترحاتهم (الملخص، صيغة المشاركة، والسيرة الذاتية) قبل الموعد النهائي.</p>
 </div>
+    </section>
+
+<section id="gallery">
+        <h2 class="section-title">معرض</h2>
+        <ul class="content-grid">
+            <li class="card">
+                <img src="../imgs/gallery/gallery(1).jpg" alt="" />
+            </li>
+            <li class="card">
+                <img src="../imgs/gallery/gallery(2).jpg" alt="" />
+            </li>
+            <li class="card">
+                <img src="../imgs/gallery/gallery(3).jpg" alt="" />
+            </li>
+        </ul>
+        <div class="btn-alt">
+            <a href="about.html" class="btn btn-primary">
+                كل الصور
+                <i class="fas fa-chevron-left"></i>
+            </a>
+        </div>
     </section>
 
     <section id="organizers">
@@ -170,7 +219,7 @@
 
         <div class="copyright">
             <p>© 2026 الجسد في حركة. جميع الحقوق محفوظة</p>
-            <p>Crafted by <a href="https://rachidsaad.github.io/">Rashid Saadaoui</a></p>
+            <p>Crafted by <a href="https://rachidsaad.github.io/">R/S</a></p>
         </div>
     </footer>
 

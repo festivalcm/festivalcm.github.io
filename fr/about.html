@@ -3,12 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About | The Body in Motion</title>
+    <title>À Propos | The Body in Motion</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="../style/main.css">
 </head>
 <body>
+
+    <menu>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="founder.html">Fondateur</a></li>
+            <li><a href="about.html" class="active">À Propos</a></li>
+            <li><a href="editions.html">Éditions</a></li>
+            <li><a href="gallery.html">Galerie</a></li>
+            <li>
+          <form>
+              <select id="lang-select" onchange="navigateLanguage(this)">
+              <option value="fr">FR</option>
+              <option value="ar">AR</option>
+              <option value="en">EN</option>
+              </select>
+          </form>
+      </li>
+        </ul>
+    </menu>
 
     <div class="bg-blob" id="blob"></div>
 
@@ -22,15 +41,6 @@
         <i class="fas fa-map-marker-alt"></i> Béni Mellal & Afourer, Maroc
     </p>
 </header>
-
-<menu>
-    <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="founder.html">Fondateur</a></li>
-        <li><a href="about.html" class="active">À Propos</a></li>
-        <li><a href="editions.html">Éditions</a></li>
-    </ul>
-</menu>
 
 <section id="about">
 
@@ -141,7 +151,7 @@
 
     <div class="copyright">
         <p>© 2026 The Body in Motion. All Rights Reserved</p>
-        <p>Crafted by <a href="https://rachidsaad.github.io/">Rashid Saadaoui</a></p>
+        <p>Crafted by <a href="https://rachidsaad.github.io/">R/S</a></p>
     </div>
 </footer>
 

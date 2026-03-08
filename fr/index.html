@@ -10,6 +10,25 @@
 </head>
 <body>
 
+    <menu>
+        <ul>
+            <li><a href="index.html" class="active">Accueil</a></li>
+            <li><a href="founder.html">Fondateur</a></li>
+            <li><a href="about.html">À Propos</a></li>
+            <li><a href="editions.html">Éditions</a></li>
+            <li><a href="gallery.html">Galerie</a></li>
+            <li>
+          <form>
+              <select id="lang-select" onchange="navigateLanguage(this)">
+              <option value="fr">FR</option>
+              <option value="ar">AR</option>
+              <option value="en">EN</option>
+              </select>
+          </form>
+      </li>
+        </ul>
+    </menu>
+
     <div class="bg-blob" id="blob"></div>
 
     <header>
@@ -23,15 +42,6 @@
         </p>
             <a href="#cfp" class="btn btn-primary">Appel à contributions</a>
     </header>
-
-    <menu>
-        <ul>
-            <li><a href="index.html" class="active">Accueil</a></li>
-            <li><a href="founder.html">Fondateur</a></li>
-            <li><a href="about.html">À Propos</a></li>
-            <li><a href="editions.html">Éditions</a></li>
-        </ul>
-    </menu>
 
 <section id="aboutEdition">
     <div>
@@ -75,6 +85,24 @@
     </div>
 </section>
 
+<section id="media">
+<h2 class="section-title">Paru dans</h2>
+<ul class="content-grid partners">
+    <li class="card">
+        <img src="../imgs/m1.jpg" alt="" />
+        <h3><a href="https://le61.ma/%D8%A7%D9%84%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A-%D8%A7%D9%84%D8%AC%D8%B3%D8%AF-%D9%88%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D9%81%D9%8A-%D8%AD%D8%B1/">Le61.ma <span class="fas fa-external-link-alt"> </span></a></h3>
+    </li>
+    <li class="card">
+        <img src="../imgs/m2.jpg" alt="" />
+        <h3><a href="https://2m.ma/ar/news/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%A7%D9%84%D8%AC%D8%B3%D8%AF-%D9%88%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D9%81%D9%8A-%D8%AD%D8%B1%D9%83%D8%A9-%D8%A8%D8%A8%D9%86%D9%8A-%D9%85%D9%84%D8%A7%D9%84-%D8%AF%D9%88%D8%B1%D8%A9-%D8%AB%D8%A7%D9%86%D9%8A%D8%A9-20250302/">2M.ma <span class="fas fa-external-link-alt"></span></a></h3>
+    </li>
+    <li class="card">
+        <img src="../imgs/m3.jpg" alt="" />
+        <h3><a href="https://aujourdhui.ma/culture/entretien-avec-pr-cherki-karkaba-fondateur-et-directeur-du-festival-international-corps-et-culture-en-mouvement-la-culture-simpose-comme-un-element-incontournable-dans-la-com">Aujourdhui.ma <span class="fas fa-external-link-alt"></span></a></h3>
+    </li>
+</ul>
+</section>
+
 <section id="cfp">
     <h2 class="section-title">Appel à contributions</h2>
     <div class="cfp-box">
@@ -109,6 +137,27 @@
             </a>
         </div>
         <p>Nous invitons les chercheurs et les artistes à soumettre leurs propositions (résumé, format et biographie) avant la date limite.</p>
+    </div>
+</section>
+
+<section id="gallery">
+    <h2 class="section-title">Galerie</h2>
+    <ul class="content-grid">
+        <li class="card">
+            <img src="../imgs/gallery/gallery(1).jpg" alt="" />
+        </li>
+        <li class="card">
+            <img src="../imgs/gallery/gallery(2).jpg" alt="" />
+        </li>
+        <li class="card">
+            <img src="../imgs/gallery/gallery(3).jpg" alt="" />
+        </li>
+    </ul>
+    <div class="btn-alt">
+        <a href="about.html" class="btn btn-primary">
+            <i class="fas fa-chevron-right"></i>
+            Toute la galerie
+        </a>
     </div>
 </section>
 
@@ -162,7 +211,7 @@
 
     <div class="copyright">
         <p>© 2026 The Body in Motion. All Rights Reserved</p>
-        <p>Crafted by <a href="https://rachidsaad.github.io/">Rashid Saadaoui</a></p>
+        <p>Crafted by <a href="https://rachidsaad.github.io/">R/S</a></p>
     </div>
 </footer>
 
