@@ -1,6 +1,6 @@
 :root {
-    --primary: #0d2954;
-    --accent: #737bd4;
+    --primary: #004d40;
+    --accent: #00897b;
     --dark: #1a1a1a;
     --light: #fdfaf5;
     --glass: rgba(255, 255, 255, 0.85);
@@ -57,8 +57,7 @@ header {
     align-items: center;
     text-align: center;
     padding: 2rem;
-    /*background: linear-gradient(rgb(253 250 245 / 56%), rgb(220 245 255 / 78%)), url(../imgs/bg.png) center/cover no-repeat;*/
-    background: linear-gradient(rgb(255 255 255 / 90%), rgb(3 169 244 / 39%)), url(../imgs/bg.png) center/cover no-repeat;
+    background: linear-gradient(rgb(255 255 255 / 48%), rgb(255 87 34 / 37%)), url(../imgs/bg.png) center/cover no-repeat;`
 }
 
 menu {
