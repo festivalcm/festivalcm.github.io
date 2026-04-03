@@ -199,7 +199,7 @@ section {
     text-align: center;
 }
 
-#comingsoon, #media, #gallery, footer{
+#topics, #gallery, footer{
     background: rgba(212, 163, 115, 0.05);
 }
 
@@ -328,6 +328,9 @@ span.timeritem:after {
 }
 
 /* --- Call for Papers Table --- */
+#cfp{
+    display: none;
+}
 .cfp-box {
     background: var(--dark);
     color: white;
@@ -376,7 +379,7 @@ ul.partners li img{
 }
 /* about */
 
-#about .intro-lead {
+.intro-lead {
     font-size: 1.5rem;
     font-family: 'Playfair Display', serif;
     margin-bottom: 50px;
